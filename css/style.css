@@ -1,0 +1,404 @@
+@import'./font.css';
+
+:root{
+    --open700:'OpenSans-Bold';
+    --italic:'OpenSans-Italic';
+    --open400:'OpenSans-Regular';
+    --open600:'OpenSans-SemiBold';
+    --tin400:'Tinos-Regular';
+    --cook400:'Cookie-Regular';
+    --body:  #FFFFFF;
+    --text:#656363;
+    --title: #000000;
+    --orange: #D67E35;
+}
+
+body{
+    background-color: var(--body);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+ margin: 0;
+}
+
+.header{
+    background-image: url(../img/hero.png);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.line {
+ height: 51px;
+ width: 1px;
+ background: #FFFFFF;   
+}
+
+.shop{
+    font-size: 15px;
+    color: white;
+    margin-right: 15px;
+}
+
+
+.header__call{
+    margin-left: 21px;
+}
+
+.header__btn{
+    margin-top: 21px;
+   margin-left: 125px;
+    width: 137px;
+    height: 47px;
+   
+    background-color: orange !important;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #fff;
+    z-index: 1111;
+    overflow: visible;
+    position: relative;
+    transition: .3s ease-out;
+    
+}
+
+
+.header__btn::before{
+content: "";
+display: block;
+position: absolute;
+width: 137px;
+    height: 47px;
+top: 0;
+left: 0;
+bottom: 0%;
+right: 0;
+background-color: orange;
+border-radius: 50px;
+animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
+z-index: -1;
+transform-origin: center;
+}
+@keyframes pulse-animation{
+0% {transform: scale(1);}
+100% {transform: scale(1.8);opacity: 0;}
+}
+
+.nav-link{
+    font-family: var(--open700);
+    color: white;
+    font-size: 14px;
+line-height: 19px;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.number{
+    color: white;
+}
+
+.number:hover{
+    color: white;
+    font-size: 18px;
+}
+
+.number__text{
+    width: 154px;
+    font-family: var(--open400);
+    color: white;
+    font-size: 14px;
+line-height: 19px;
+}
+
+
+.menu {
+   
+    height: 2px;
+    position: relative;
+}
+
+.menu::after,
+.menu::before {
+    left: 0;
+    top: -8px;
+    content: '';
+    background-color: var(--orange);
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    transition: 0.5s;
+}
+
+.menu::after {
+    top: 8px;
+}
+
+.navbar-toggler:not(.collapsed) .menu::after {
+    transform: rotate(-45deg);
+    top: 0;
+}
+
+.navbar-toggler:not(.collapsed) .menu::before {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler.collapsed .menu {
+    background-color: var(--orange);
+}
+
+.welcome{
+  
+    margin-top: 130px;
+}
+
+.title_one{
+ 
+    font-family: var(--tin400);
+    color: var(--orange);
+    font-size: 50px;
+
+}
+
+.title_two{
+   
+    font-family: var(--tin400);
+    color: var(--orange);
+    font-size: 80px;
+margin-bottom: 12px;
+}
+
+.welcome_text{
+   
+  margin-left: 30px;
+    color: white;
+    font-size: 18px;
+ font-family: var(--open400);
+}
+.welcome_text::before{
+    content: '-----------';
+    color: white;
+}
+
+.welcome_text::after{
+    content: '-----------';
+    color: white;
+}
+
+.welcome_btn{
+    margin-top: 21px;
+   margin-left: 125px;
+    width: 137px;
+    height: 47px;
+   
+    background-color: orange !important;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+    z-index: 1111;
+    overflow: visible;
+    position: relative;
+    transition: .3s ease-out;
+    
+}
+
+
+.welcome_btn::before{
+content: "";
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0%;
+right: 0;
+background-color: orange;
+border-radius: 50px;
+animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
+z-index: -1;
+transform-origin: center;
+}
+@keyframes pulse-animation{
+0% {transform: scale(1);}
+100% {transform: scale(1.8);opacity: 0;}
+}
+
+
+.food{
+    margin: 0 auto;
+   width: 349px;
+   height: 328px;
+    padding: 35px;
+    transform: translateY(-30%);
+  background-color: white;
+  box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+  animation-name: food;
+  animation-duration: 5s;
+   
+ 
+}
+@keyframes food {
+    from {
+        transform:  translateY(-30%) scale(0);
+
+    }
+
+    to {
+        transform:  translateY(-30%) scale(1);
+    }
+}
+.food h3{
+    font-family: var(--tin400);
+    font-size: 26px;
+    color: #2C2C2C;
+    margin-bottom: 20px;
+}
+
+.food span{
+    font-size: 26px;
+    font-family: var(--tin400);
+    color:  #BC9060;
+    
+}
+
+.food p{
+    color: var(--text);
+    font-family: var(--tin400);
+    font-size: 26px;
+line-height: 30px;
+
+}
+  
+/* foood end */
+
+
+.story__title{
+ 
+  margin-left:  50px;
+    margin-bottom: 21px;
+    font-size: 54px;
+    font-family: var(--tin400);
+}
+
+.story__title span{
+  
+    font-size: 54px;
+    font-family: var(--tin400);
+    color: var(--orange);
+}
+
+.story__text{
+    text-align: center;
+    width: 444px;
+    color: var(--text);
+    font-family: var(--open400);
+    font-size: 16px;
+line-height: 22px;
+margin-bottom: 40px;
+}
+
+
+.hist h2{
+    font-family: var(--open400);
+    font-size: 40px;
+    color: #BC9060;
+}
+
+.hist p{
+    font-family: var(--open400);
+    font-size: 20px;
+    color: black;
+}
+
+.story_item{
+    width: 444px;
+}
+
+.story{
+  
+    margin-bottom: 122px;
+}
+
+/* order start */
+
+.order__bg{
+    background-image: url(../img/order.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 357px;
+    width: 100%;
+  
+  
+}
+
+.order__title{
+   margin-top: 80px;
+    font-family: var(--tin400);
+    font-size: 52px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    color: var(--orange);
+    width: 601px;
+    animation-name: slide;
+    animation-duration: 10s;
+}
+
+.order__text{
+    color: white;
+    font-family: var(--open700);
+    font-size: 24px;
+    animation-name: slide;
+    animation-duration: 10s;
+}
+
+@keyframes slide{
+    from{
+        margin-left: 100%;
+
+    }
+
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.welcomes{
+    margin-top: 155px;
+}
+
+.order{
+    margin-bottom: 132px;
+}

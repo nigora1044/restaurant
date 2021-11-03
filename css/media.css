@@ -1,0 +1,476 @@
+@media(max-width:1150px){
+    .welcomes{
+        margin-top: 70px;
+    }
+}
+
+@media(max-width:950px){
+   
+    .order__title{
+        margin-top: 70px;
+        font-size: 48px;
+        line-height: 55px;
+        margin-bottom: 18px;
+    }
+ 
+    .title_one{
+        text-align: center;
+        font-size: 45px;
+    }
+    .title_two{
+        text-align: center;
+        font-size: 70px;
+       
+    }
+    .welcome_text{
+        text-align: center;
+    }
+    .welcome_btn{
+     margin: 0 auto;
+    }
+  
+}
+@media(max-width:900px){
+    .welcomes{
+        margin-top: 60px;
+    }
+    .order__title{
+        margin-top: 60px;
+        font-size: 45px;
+        line-height: 50px;
+        margin-bottom: 18px;
+    }
+    .food{
+        width: 345px;
+        height: 325px;
+        padding: 30px; 
+     }
+    .title_one{
+        font-size: 40px;
+    }
+    .title_two{
+        font-size: 65px;
+       
+    }
+}
+@media(max-width:850px){
+    .welcomes{
+        margin-top: 55px;
+    }
+    .title_one{
+
+        font-size: 35px;
+    }
+    .title_two{
+        font-size: 55px;
+      
+    }
+    .welcome_text{
+        margin-left: 20px;
+    }
+    .order__text{
+       
+        font-size: 22px;
+           }
+}
+@media(max-width:800px){
+    .welcomes{
+        margin-top: 50px;
+    }
+
+    .order__title{
+        text-align: center;
+        margin-top: 55px;
+        font-size: 40px;
+        line-height: 45px;
+        margin-bottom: 16px;
+    }
+    .order__text{
+ text-align: center;
+ font-size: 20px;
+    }
+    .story__title{
+        font-size: 50px;
+    }
+    .story__title span{
+        font-size: 50px;
+    }
+
+    .hist h2{
+        font-size: 38px;
+    }
+    .hist p{
+        font-size: 18px;
+    }
+    .food h3{
+        font-size: 24px;
+    }
+    .food p{
+        font-size: 24px;
+    }
+    .food span{
+        font-size: 24px;
+    }
+    .food{
+        width: 340px;
+        height: 320px;
+        padding: 25px; 
+     }
+    .welcome_text{
+        margin-bottom: 18px;
+        text-align: center;
+        font-size: 18px;
+        margin-left: 15px;
+    }
+
+    .title_one{
+        text-align: center;
+        font-size: 32px;
+    }
+    .title_two{
+       
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .welcome_btn{
+        text-align: center;
+        width: 135px;
+        height: 45px;
+     margin: 0 auto;
+    }
+
+}
+@media(max-width:700px){
+    .welcomes{
+        margin-top: 45px;
+    }
+
+    .order__title{
+        width: 100%;
+        text-align: center;
+        margin-top: 48px;
+        font-size: 38px;
+        line-height: 42px;
+        margin-bottom: 15px;
+    }
+    .order__text{
+        width: 100%;
+ text-align: center;
+ font-size: 18px;
+    }
+    .story__title{
+        font-size: 45px;
+    }
+    .story__title span{
+        font-size: 45px;
+    }
+
+    .hist h2{
+        font-size: 35px;
+    }
+    .hist p{
+        font-size: 18px;
+    }
+    .food h3{
+        font-size: 22px;
+    }
+    .food p{
+        font-size: 22px;
+    }
+    .food span{
+        font-size: 22px;
+    }
+
+
+    .food{
+        
+        width: 330px;
+        height: 315px;
+       padding: 20px; 
+    }
+    .welcome_btn{
+        width: 130px;
+        height: 40px;
+        font-size: 12px;
+      margin: 0 auto;
+    }
+    .welcome_text{
+        text-align: center;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    
+    .title_one{
+        text-align: center;
+        font-size: 30px;
+    }
+    .title_two{
+        text-align: center;
+        font-size: 45px;
+     margin-bottom: 8px;
+    }
+}
+@media(max-width:500px){
+    .welcomes{
+        margin-top: 40px;
+    }
+
+    .order__title{
+        text-align: center;
+        margin-top: 45px;
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 14px;
+    }
+    .order__text{
+ text-align: center;
+ font-size: 16px;
+    }
+    .story__text{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .story__title{
+        font-size: 40px;
+    }
+    .story__title span{
+        font-size: 40px;
+    }
+
+    .hist h2{
+        font-size: 30px;
+    }
+    .hist p{
+        font-size: 16px;
+    }
+    .welcome{
+  
+        margin-top: 120px;
+    }
+    .food h3{
+        font-size: 20px;
+    }
+    .food p{
+        font-size: 20px;
+    }
+    .food span{
+        font-size: 20px;
+    }
+    .food{
+        width: 315px;
+        height: 285px;
+        padding: 15px;
+    }
+    .welcome_btn{
+        width: 125px;
+        height: 35px;
+        font-size: 10px;
+        margin: 0 auto;
+    }
+    .welcome_text{
+        font-size: 14px;
+        margin-left: 8px;
+    }
+
+    .title_one{
+        font-size: 28px;
+    }
+    .title_two{
+        font-size: 40px;
+        
+        margin-bottom: 6px;
+    }
+}
+@media(max-width:400px){
+    .welcomes{
+        margin-top: 35px;
+    }
+
+    .order__title{
+        text-align: center;
+        margin-top: 40px;
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 12px;
+    }
+    .order__text{
+ text-align: center;
+ font-size: 15px;
+    }
+
+    .story_item{
+    
+width: 100%;
+    }
+    .story__text{
+ margin-bottom: 24px;
+        font-size: 16px;
+        line-height: 20px;
+        width: 100%;
+    }
+    .story__title{
+        font-size: 35px;
+    }
+    .story__title span{
+        font-size: 35px;
+    }
+
+    .hist h2{
+        font-size: 25px;
+    }
+    .hist p{
+        font-size: 16px;
+    }
+    .welcome{
+  
+        margin-top: 110px;
+    }
+    .food h3{
+        font-size: 18px;
+    }
+    .food p{
+        font-size: 18px;
+    }
+    .food span{
+        font-size: 18px;
+    }
+    .food{
+        width: 300px;
+        height: 270px;
+padding: 10px;
+    }
+    .welcome_btn{
+        width: 115px;
+        height: 30px;
+        font-size: 10px;
+        margin: 0 auto;
+    }
+    .welcome_text{
+        font-size: 14px;
+        
+    }
+
+    .title_one{
+        font-size: 24px;
+    }
+    .title_two{
+        font-size: 35px;
+        
+        margin-bottom: 5px;
+    }
+}
+@media(max-width:350px){
+    .welcomes{
+        margin-top: 30px;
+    }
+
+    .order__title{
+        text-align: center;
+        margin-top: 40px;
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 10px;
+    }
+    .order__text{
+ text-align: center;
+ font-size: 14px;
+    }
+    
+    .story__text{
+        font-size: 14px;
+        line-height: 18px;
+        width: 100%;
+        margin-bottom: 18px;
+    }
+    .story__title{
+        font-size: 30px;
+    }
+    .story__title span{
+        font-size: 30px;
+    }
+
+    .hist h2{
+        font-size: 20px;
+    }
+    .hist p{
+        font-size: 14px;
+    }
+    .welcome{
+  
+        margin-top: 90px;
+    }
+    .welcome_text{
+        font-size: 12px;
+    }
+    .food h3{
+        font-size: 16px;
+    }
+    .food p{
+        font-size: 16px;
+    }
+    .food span{
+        font-size: 16px;
+    }
+    .food{
+        width: 280px;
+        height: 250px;
+padding: 10px;
+    }
+}
+@media(max-width:300px){
+    .welcomes{
+        margin-top: 25px;
+    }
+
+    .order__title{
+        text-align: center;
+        margin-top: 40px;
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 8px;
+    }
+    .order__text{
+ text-align: center;
+ font-size: 12px;
+    }
+
+    .story__text{
+        margin-bottom: 14px;
+        font-size: 12px;
+        line-height: 15px;
+        width: 100%;
+    }
+    .story__title{
+        font-size: 24px;
+    }
+    .story__title span{
+        font-size: 24px;
+    }
+
+    .hist h2{
+        font-size: 16px;
+    }
+    .hist p{
+        font-size: 12px;
+    }
+    .welcome{
+  
+        margin-top: 70px;
+    }
+    .food h3{
+        font-size: 14px;
+    }
+    .food p{
+        font-size: 14px;
+    }
+    .food span{
+        font-size: 14px;
+    }
+    .food{
+        width: 260px;
+        height: 230px;
+padding: 8px;
+    }
+    
+}
